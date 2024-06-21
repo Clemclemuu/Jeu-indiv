@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier arrive</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="intro">
+        <p>Welcome to ꕷꞆᎽԸዛĬꞆꗞᗫ𐠷'!</p>
+        <p>Finest neighbourhood of ክዐህልርጎፕሃ.</p>
+        <p>This is a crime scene. You should not be here, but you arrived first. You are a firefly, who's gonna report you? Not that anyone else cares much anyway</p>
+        <p>Just fly around, go find some stuff. Oh, and careful with the rain, you're small</p>
+        <p>Press arrow keys to fly.</p>
+    </div>
+
+    <div id="box">
+        <canvas id="canvas1" width="2000" height="1000"></canvas>
+        <canvas id="canvas2" width="2000" height="1000"></canvas>
+    </div>
+
+    <script type="text/javascript" src="rain.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            var introDiv = document.getElementById('intro');
+
+            function hideIntro() {
+                introDiv.style.display = 'none'; 
+            }
+
+            setTimeout(hideIntro, 25000);
+        });
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+      
+
+</body>
+</html>
