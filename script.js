@@ -96,7 +96,7 @@ const text2a = "- Croâââââ";
 const text2b = "- ...";
 
 // Text properties for image3
-const text3 = "They wont leave people alone, even a freaking bug like me. Fuck big brother.";
+const text3 = "I know you're watching, even a freaking bug like me. Fuck you big brother.";
 
 // Text properties for image4
 const text4 = "I hope it only ketchup. Do fireflies eat ketchup?";
